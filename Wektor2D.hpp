@@ -64,7 +64,7 @@ Wektor2D operator+(Wektor2D w1, Wektor2D w2)
 
 double operator*(Wektor2D w1, Wektor2D w2)
 {
-    double result = w1.getX() * w2.getX() + w1.getY() + w2.getY();
+    double result = w1.getX() * w2.getX() + w1.getY()*w2.getY();
     return result;
 }
 std::ostream& operator<<(std::ostream& out, Wektor2D w)
